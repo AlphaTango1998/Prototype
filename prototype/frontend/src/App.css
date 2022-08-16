@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Header {
+  background-color: #6cf395;
+  display: flex;
+  grid-template-areas: "logo nav";
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Footer {
+  background-color: #6cf395;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  align-items: center;
+  justify-items: center;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.divmain{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+  
+}
+.Register{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  position: absolute;
+  padding: 20px;
+  opacity: 0.9;
+  text-align: center;
+  width:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Info{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  width: 50%;
+  background-color: rgb(235, 232, 232);
+  margin: auto;
+  position: absolute;
+  padding: 20px;
+  opacity: 0.9;
+  width:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info-left{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.info-right{
+  display: inline-block;
+  text-align: left;
+  vertical-align: left;
+}
+
+.nav{
+text-align: justify;
+width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-ui li{
+  display: inline-block;
+  padding: 10px;
+ 
+}
+
+.nav-ui-right{
+  text-align: right;
+  width: auto;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100px;
+  display: flex;
+  align-items: stretch;
+}
+
+
+tr{
+  width: 100%;
+}
+td{
+  padding: 8px;
+  font-size: 32px;
+  width:50%;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.Regitable{
+  display: flex;
+  flex-direction: column;
+  orientation: vertical;
+  padding: 5px;
+  width: 100%;
+  }
+
+.textbox{
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  padding: 8px;
+  resize: none;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  font-family: sans-serif;
+  font-size: medium;
+}
+
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 250px;
+}
+.regibutton {
+  background-color: white;
+  color: black;
+  border: 3px solid #555555;
+}
+
+.regibutton:hover {
+  background-color: #555555;
+  color: white;
+}
+.loginbutton:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.loginbutton{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  border: 3px solid #555555;
+}
+
+.logo{
+  border-radius: 70px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.tde{
+  padding: 8px;
+  align-items: center;
+  align-content: center;
+}
